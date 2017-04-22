@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21859A991EABD5BD0028DE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21859A981EABD5BD0028DE29 /* AppDelegate.swift */; };
+		21859A9B1EABD5BD0028DE29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21859A9A1EABD5BD0028DE29 /* ViewController.swift */; };
+		21859A9E1EABD5BD0028DE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21859A9C1EABD5BD0028DE29 /* Main.storyboard */; };
+		21859AA01EABD5BD0028DE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21859A9F1EABD5BD0028DE29 /* Assets.xcassets */; };
+		21859AA31EABD5BD0028DE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21859AA11EABD5BD0028DE29 /* LaunchScreen.storyboard */; };
+		21859AAE1EABD5BD0028DE29 /* App_2_Millas_a_MetrosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21859AAD1EABD5BD0028DE29 /* App_2_Millas_a_MetrosTests.swift */; };
+		21859AB91EABD5BD0028DE29 /* App_2_Millas_a_MetrosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21859AB81EABD5BD0028DE29 /* App_2_Millas_a_MetrosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21859AAA1EABD5BD0028DE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21859A8D1EABD5BD0028DE29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21859A941EABD5BD0028DE29;
+			remoteInfo = "App 2 Millas a Metros";
+		};
+		21859AB51EABD5BD0028DE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21859A8D1EABD5BD0028DE29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21859A941EABD5BD0028DE29;
+			remoteInfo = "App 2 Millas a Metros";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21859A951EABD5BD0028DE29 /* App 2 Millas a Metros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App 2 Millas a Metros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21859A981EABD5BD0028DE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21859A9A1EABD5BD0028DE29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21859A9D1EABD5BD0028DE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21859A9F1EABD5BD0028DE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21859AA21EABD5BD0028DE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21859AA41EABD5BD0028DE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21859AA91EABD5BD0028DE29 /* App 2 Millas a MetrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App 2 Millas a MetrosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21859AAD1EABD5BD0028DE29 /* App_2_Millas_a_MetrosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_2_Millas_a_MetrosTests.swift; sourceTree = "<group>"; };
+		21859AAF1EABD5BD0028DE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21859AB41EABD5BD0028DE29 /* App 2 Millas a MetrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App 2 Millas a MetrosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21859AB81EABD5BD0028DE29 /* App_2_Millas_a_MetrosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_2_Millas_a_MetrosUITests.swift; sourceTree = "<group>"; };
+		21859ABA1EABD5BD0028DE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21859A921EABD5BD0028DE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21859AA61EABD5BD0028DE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21859AB11EABD5BD0028DE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21859A8C1EABD5BD0028DE29 = {
+			isa = PBXGroup;
+			children = (
+				21859A971EABD5BD0028DE29 /* App 2 Millas a Metros */,
+				21859AAC1EABD5BD0028DE29 /* App 2 Millas a MetrosTests */,
+				21859AB71EABD5BD0028DE29 /* App 2 Millas a MetrosUITests */,
+				21859A961EABD5BD0028DE29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21859A961EABD5BD0028DE29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21859A951EABD5BD0028DE29 /* App 2 Millas a Metros.app */,
+				21859AA91EABD5BD0028DE29 /* App 2 Millas a MetrosTests.xctest */,
+				21859AB41EABD5BD0028DE29 /* App 2 Millas a MetrosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21859A971EABD5BD0028DE29 /* App 2 Millas a Metros */ = {
+			isa = PBXGroup;
+			children = (
+				21859A981EABD5BD0028DE29 /* AppDelegate.swift */,
+				21859A9A1EABD5BD0028DE29 /* ViewController.swift */,
+				21859A9C1EABD5BD0028DE29 /* Main.storyboard */,
+				21859A9F1EABD5BD0028DE29 /* Assets.xcassets */,
+				21859AA11EABD5BD0028DE29 /* LaunchScreen.storyboard */,
+				21859AA41EABD5BD0028DE29 /* Info.plist */,
+			);
+			path = "App 2 Millas a Metros";
+			sourceTree = "<group>";
+		};
+		21859AAC1EABD5BD0028DE29 /* App 2 Millas a MetrosTests */ = {
+			isa = PBXGroup;
+			children = (
+				21859AAD1EABD5BD0028DE29 /* App_2_Millas_a_MetrosTests.swift */,
+				21859AAF1EABD5BD0028DE29 /* Info.plist */,
+			);
+			path = "App 2 Millas a MetrosTests";
+			sourceTree = "<group>";
+		};
+		21859AB71EABD5BD0028DE29 /* App 2 Millas a MetrosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21859AB81EABD5BD0028DE29 /* App_2_Millas_a_MetrosUITests.swift */,
+				21859ABA1EABD5BD0028DE29 /* Info.plist */,
+			);
+			path = "App 2 Millas a MetrosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21859A941EABD5BD0028DE29 /* App 2 Millas a Metros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21859ABD1EABD5BD0028DE29 /* Build configuration list for PBXNativeTarget "App 2 Millas a Metros" */;
+			buildPhases = (
+				21859A911EABD5BD0028DE29 /* Sources */,
+				21859A921EABD5BD0028DE29 /* Frameworks */,
+				21859A931EABD5BD0028DE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App 2 Millas a Metros";
+			productName = "App 2 Millas a Metros";
+			productReference = 21859A951EABD5BD0028DE29 /* App 2 Millas a Metros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21859AA81EABD5BD0028DE29 /* App 2 Millas a MetrosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21859AC01EABD5BD0028DE29 /* Build configuration list for PBXNativeTarget "App 2 Millas a MetrosTests" */;
+			buildPhases = (
+				21859AA51EABD5BD0028DE29 /* Sources */,
+				21859AA61EABD5BD0028DE29 /* Frameworks */,
+				21859AA71EABD5BD0028DE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21859AAB1EABD5BD0028DE29 /* PBXTargetDependency */,
+			);
+			name = "App 2 Millas a MetrosTests";
+			productName = "App 2 Millas a MetrosTests";
+			productReference = 21859AA91EABD5BD0028DE29 /* App 2 Millas a MetrosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21859AB31EABD5BD0028DE29 /* App 2 Millas a MetrosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21859AC31EABD5BD0028DE29 /* Build configuration list for PBXNativeTarget "App 2 Millas a MetrosUITests" */;
+			buildPhases = (
+				21859AB01EABD5BD0028DE29 /* Sources */,
+				21859AB11EABD5BD0028DE29 /* Frameworks */,
+				21859AB21EABD5BD0028DE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21859AB61EABD5BD0028DE29 /* PBXTargetDependency */,
+			);
+			name = "App 2 Millas a MetrosUITests";
+			productName = "App 2 Millas a MetrosUITests";
+			productReference = 21859AB41EABD5BD0028DE29 /* App 2 Millas a MetrosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21859A8D1EABD5BD0028DE29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gustavo;
+				TargetAttributes = {
+					21859A941EABD5BD0028DE29 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					21859AA81EABD5BD0028DE29 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21859A941EABD5BD0028DE29;
+					};
+					21859AB31EABD5BD0028DE29 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21859A941EABD5BD0028DE29;
+					};
+				};
+			};
+			buildConfigurationList = 21859A901EABD5BD0028DE29 /* Build configuration list for PBXProject "App 2 Millas a Metros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21859A8C1EABD5BD0028DE29;
+			productRefGroup = 21859A961EABD5BD0028DE29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21859A941EABD5BD0028DE29 /* App 2 Millas a Metros */,
+				21859AA81EABD5BD0028DE29 /* App 2 Millas a MetrosTests */,
+				21859AB31EABD5BD0028DE29 /* App 2 Millas a MetrosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21859A931EABD5BD0028DE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21859AA31EABD5BD0028DE29 /* LaunchScreen.storyboard in Resources */,
+				21859AA01EABD5BD0028DE29 /* Assets.xcassets in Resources */,
+				21859A9E1EABD5BD0028DE29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21859AA71EABD5BD0028DE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21859AB21EABD5BD0028DE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21859A911EABD5BD0028DE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21859A9B1EABD5BD0028DE29 /* ViewController.swift in Sources */,
+				21859A991EABD5BD0028DE29 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21859AA51EABD5BD0028DE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21859AAE1EABD5BD0028DE29 /* App_2_Millas_a_MetrosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21859AB01EABD5BD0028DE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21859AB91EABD5BD0028DE29 /* App_2_Millas_a_MetrosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21859AAB1EABD5BD0028DE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21859A941EABD5BD0028DE29 /* App 2 Millas a Metros */;
+			targetProxy = 21859AAA1EABD5BD0028DE29 /* PBXContainerItemProxy */;
+		};
+		21859AB61EABD5BD0028DE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21859A941EABD5BD0028DE29 /* App 2 Millas a Metros */;
+			targetProxy = 21859AB51EABD5BD0028DE29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21859A9C1EABD5BD0028DE29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21859A9D1EABD5BD0028DE29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21859AA11EABD5BD0028DE29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21859AA21EABD5BD0028DE29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21859ABB1EABD5BD0028DE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21859ABC1EABD5BD0028DE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21859ABE1EABD5BD0028DE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App 2 Millas a Metros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoUdemy.App-2-Millas-a-Metros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21859ABF1EABD5BD0028DE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App 2 Millas a Metros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoUdemy.App-2-Millas-a-Metros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		21859AC11EABD5BD0028DE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "App 2 Millas a MetrosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoUdemy.App-2-Millas-a-MetrosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App 2 Millas a Metros.app/App 2 Millas a Metros";
+			};
+			name = Debug;
+		};
+		21859AC21EABD5BD0028DE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "App 2 Millas a MetrosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoUdemy.App-2-Millas-a-MetrosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App 2 Millas a Metros.app/App 2 Millas a Metros";
+			};
+			name = Release;
+		};
+		21859AC41EABD5BD0028DE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "App 2 Millas a MetrosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoUdemy.App-2-Millas-a-MetrosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "App 2 Millas a Metros";
+			};
+			name = Debug;
+		};
+		21859AC51EABD5BD0028DE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "App 2 Millas a MetrosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoUdemy.App-2-Millas-a-MetrosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "App 2 Millas a Metros";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21859A901EABD5BD0028DE29 /* Build configuration list for PBXProject "App 2 Millas a Metros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21859ABB1EABD5BD0028DE29 /* Debug */,
+				21859ABC1EABD5BD0028DE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21859ABD1EABD5BD0028DE29 /* Build configuration list for PBXNativeTarget "App 2 Millas a Metros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21859ABE1EABD5BD0028DE29 /* Debug */,
+				21859ABF1EABD5BD0028DE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21859AC01EABD5BD0028DE29 /* Build configuration list for PBXNativeTarget "App 2 Millas a MetrosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21859AC11EABD5BD0028DE29 /* Debug */,
+				21859AC21EABD5BD0028DE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21859AC31EABD5BD0028DE29 /* Build configuration list for PBXNativeTarget "App 2 Millas a MetrosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21859AC41EABD5BD0028DE29 /* Debug */,
+				21859AC51EABD5BD0028DE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21859A8D1EABD5BD0028DE29 /* Project object */;
+}
