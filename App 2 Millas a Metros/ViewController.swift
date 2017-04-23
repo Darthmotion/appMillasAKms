@@ -8,109 +8,87 @@
 
 import UIKit
 
+
+enum SelectedConversion: Int {
+    case invalid = -1, toMiles = 0, toKilometers
+    
+    static func value(forKey key: Int) -> SelectedConversion {
+        switch key {
+        case 0:
+            return .toMiles
+        case 1:
+            return .toKilometers
+        default:
+            return .invalid
+        }
+    }
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet var distanceTextBox: UITextField!
-    
     @IBOutlet var optionSelect: UISegmentedControl!
-    
     @IBOutlet var resultLabel: UILabel!
     
+    override var prefersStatusBarHidden: Bool { return true } 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         resultLabel.text = ""
-        // Do any additional setup after loading the view, typically from a nib.
+        optionSelect.selectedSegmentIndex = 0
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func convertPressed(_ sender: UIButton) {
+    @IBAction func didTapConvert(_ sender: UIButton) {
         
-        let selectedIndex = optionSelect.selectedSegmentIndex
-        
-        if distanceTextBox.text == "" {
-            
-            let error = 0
-            alertHandler(error: error)
-            
-        }else if Double(distanceTextBox.text!) == nil {
-            
-            let error = 1
-            alertHandler(error: error)
-            
-
-        } else {
-            
-            let distance = Double(distanceTextBox.text!)!
-         
-            if selectedIndex == 0 {
-                
-                let result = distance * 0.621371
-                convertFunc(distance: distance, result: result)
-                
-                
-            }else if selectedIndex == 1{
-                
-                let result = distance * 1.60934
-                convertFunc(distance: distance, result: result)
-                
-            }else{
-                
-                let error = 2
-                alertHandler(error: error)
-            }
+        guard let value = Double(distanceTextBox.text!) else {
+            alertHandler(error: .NaN)
+            return
         }
         
-    }
-
-    func convertFunc (distance : Double, result : Double){
+        let targetUnit = SelectedConversion.value(forKey: optionSelect.selectedSegmentIndex)
+        let conversion = convert(value, to: targetUnit)
         
-        let initValue = String(format: "%.2f", distance)
-        let endValue = String(format: "%.2f", result)
-        
-        if optionSelect.selectedSegmentIndex == 0 {
-            resultLabel.text = "\(initValue) Kms = \(endValue) Millas"
-        } else if optionSelect.selectedSegmentIndex == 1 {
-            resultLabel.text = "\(initValue) Millas = \(endValue) Kilometros"
+        switch targetUnit {
+        case .toMiles:
+            let resultStr = String(format: "%.2f", conversion)
+            resultLabel.text = "\(value) Kms\n = \n\(resultStr) Mi"
+            break
+        case .toKilometers:
+            let resultStr = String(format: "%.2f", conversion)
+            resultLabel.text = "\(value) Mi\n = \n\(resultStr) Kms"
+            break
+        default:
+            break
         }
     }
     
-    func alertHandler(error: Int){
-        
+    private func alertHandler(error: ErrorTypes){
+        let alertBtn : UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        let alert: UIAlertController
         switch error {
-        
-        case 0:
-            let alert : UIAlertController = UIAlertController(title: "Error", message: "No introdujiste nada a Convertir", preferredStyle: .alert)
-            
-            let alertBtn : UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-            
+        case .NaN:
+            alert = UIAlertController(title: "Error", message: "Ingrese un número válido.", preferredStyle: .alert)
             alert.addAction(alertBtn)
-            
             present(alert, animated: true, completion: nil)
-            
-        case 1:
-            let alert : UIAlertController = UIAlertController(title: "Error", message: "No introdujiste un numero valido", preferredStyle: .alert)
-            
-            let alertBtn : UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-            
+        case .genericError:
+            alert = UIAlertController(title: "Error", message: "Ups! algo ha salido mal vuelve a intentarlo", preferredStyle: .alert)
             alert.addAction(alertBtn)
-            
             present(alert, animated: true, completion: nil)
-        case 2:
-            let alert : UIAlertController = UIAlertController(title: "Error", message: "Ups! algo ha salido mal vuelve a intentarlo", preferredStyle: .alert)
-            
-            let alertBtn : UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-            
-            alert.addAction(alertBtn)
-            
-            present(alert, animated: true, completion: nil)
-        default: break
-            
         }
     }
     
+    private func convert(_ distance: Double, to: SelectedConversion) -> Double {
+        switch to {
+        case .toMiles:
+            return distance * 0.621371
+        case .toKilometers:
+            return distance * 1.60934
+        default:
+            return -1.0
+        }
+    }
+}
+
+enum ErrorTypes: String {
+    case NaN, genericError
 }
